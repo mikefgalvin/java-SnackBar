@@ -66,7 +66,8 @@ public class Snack
 
 	public double addQuantity(int amount)
 	{
-		return this.quantity = quantity + amount;
+		this.quantity += amount;
+		return this.quantity;
 	}
 
 
